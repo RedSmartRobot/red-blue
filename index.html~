@@ -18,7 +18,7 @@
     	<h3>Choose your pill:</h4>
 	<h3><span style="color: #FF0000;"><b>RED</b></span> or <span style="color: #0000FF;"><b>BLUE</b></span>?</h3>
 	    <p></p>
-	    <img src="img/robot.jpeg" alt="robot">
+	    <img src="https://zakon.ru/Content/entriesattachments/f3d46f41-d812-49e9-9b12-5766385a2037.jpg" width="300" height="255" alt="robot">
     	<div class="proposals row"></div>
     	<p style="padding-top:15px;">
     		<button type="button" style="display:none;" class="btn btn-danger" id="finish">Finish the voting</button>
