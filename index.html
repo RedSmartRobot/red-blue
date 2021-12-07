@@ -7,7 +7,7 @@
     <title>Red or Blue?</title>
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
-    <script type="text/javascript" src="assets/js/ethers.wrapper.js"></script>
+    <script type="text/javascript" src="assets/js/ethers.wrapper.js"></script> //EDITED
 </head>
 <body>
 <div class="container text-center">
@@ -402,6 +402,7 @@ var dapp = (function(){
 
 window.addEventListener('load', async  function(){
     await dapp.init('Red or Blue?');
+	await ethereum.request({ method: 'eth_requestAccounts' }); //EDITED
 });
 </script>
 
