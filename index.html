@@ -7,7 +7,7 @@
     <title>Red or Blue?</title>
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
-    <script type="text/javascript" src="assets/js/ethers.wrapper.js"></script> //EDITED
+    <script type="text/javascript" src="assets/js/ethers.wrapper.js"></script> <!-- EDITED -->
 </head>
 <body>
 <div class="container text-center">
@@ -28,7 +28,7 @@
     <h1>Loading...</h1>
     <p>Waiting for the Smart Contract's response.</p>
     <p>This dApp works in <span style="color: #5dffdb;">Rinkeby Test Network</span>.</p>
-	<p>You will be prompted to log in to your MetaMask wallet and to connect this site to you acconts (pleas do it).</p> //EDITED
+	<p>You will be prompted to log in to your MetaMask wallet and to connect this site to you acconts. Please do it and reload this page.</p> <!-- EDITED -->
 </div>
 <style>
     #loading-placeholder{
@@ -403,7 +403,8 @@ var dapp = (function(){
 
 window.addEventListener('load', async  function(){
     await dapp.init('Red or Blue?');
-	await ethereum.request({ method: 'eth_requestAccounts' }); //EDITED
+	await ethereum.request({ method: 'eth_requestAccounts' }); // EDITED
+	
 });
 </script>
 
